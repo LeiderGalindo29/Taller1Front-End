@@ -154,8 +154,8 @@ cermodal2.addEventListener("click",()=>{
 })
 
 window.addEventListener("click",(e)=>{
-if(e.target==venmodal1){
-    venmodal1.style.display="none"; 
+if(e.target==venmodal2){
+    venmodal2.style.display="none"; 
 }
 })
 
@@ -165,37 +165,19 @@ function triangulos() {
         const firstValue = document.getElementById("tri-1").value
         const secondValue = document.getElementById("tri-2").value
         const thirdValue = document.getElementById("tri-3").value
-        firstValue = parseFloat(firstValue)
-        secondValue = parseFloat(secondValue)
-        thirdValue = parseFloat(thirdValue)
-        /*if (firstValue == secondValue && firstValue == thirdValue) {
-            alert(`Los lados del triangulo ${firstValue},${secondValue},${thirdValue}, es un triangulo equilatero `)
-        }
-        else if (secondValue == firstValue && secondValue == thirdValue) {
-            alert(`Los lados del triangulo ${firstValue},${secondValue},${thirdValue}, es un triangulo equilatero `)
-        }
-        else if (thirdValue == firstValue && thirdValue == secondValue) {
-            alert(`Los lados del triangulo ${firstValue},${secondValue},${thirdValue}, es un triangulo equilatero `)
-        }*/
-        /*Escaleno*/
-        /*else if (firstValue != secondValue && firstValue != thirdValue) {
-            alert(`Los lados del triangulo ${firstValue},${secondValue},${thirdValue}, es un triangulo escaleno `)
-        }
-        else if (secondValue != firstValue && secondValue != thirdValue) {
-            alert(`Los lados del triangulo ${firstValue},${secondValue},${thirdValue},  es un triangulo escaleno `)
-        }
-        else if (thirdValue != firstValue && thirdValue != secondValue) {
-            alert(`Los lados del triangulo ${firstValue},${secondValue},${thirdValue},  es un triangulo escaleno `)
-        }
-        else{
-            alert(`Los lados del triangulo ${firstValue},${secondValue},${thirdValue},  es un triangulo isosceles `)
-        }*/
+        
         if(firstValue==secondValue && firstValue ==thirdValue){
             alert(`Los lados del triangulo ${firstValue},${secondValue},${thirdValue}, es un triangulo equilatero `)
-      }else if(firstValue==secondValue || secondValue==thirdValue || firstValue==thirdValue){
-        alert(`Los lados del triangulo ${firstValue},${secondValue},${thirdValue},  es un triangulo isosceles `)
-    }else{
-        alert(`Los lados del triangulo ${firstValue},${secondValue},${thirdValue}, es un triangulo escaleno `)
-    }  
-    })
+        }
+        
+        else if(firstValue==secondValue || secondValue==thirdValue || firstValue==thirdValue){
+            alert(`Los lados del triangulo ${firstValue},${secondValue},${thirdValue},  es un triangulo isosceles `)
+        }
+        
+        else{
+            alert(`Los lados del triangulo ${firstValue},${secondValue},${thirdValue}, es un triangulo escaleno `)
+        }  
+        })
 }
+
+triangulos()
