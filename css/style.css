@@ -390,6 +390,291 @@ input#sec-dc {
     justify-content: center;
     width: 94%;
     padding: 1%;
+    margin-bottom: 3%;
+}
+
+input#tri-1 {
+    padding: 0.5em;
+	    margin-left: 16%;
+    margin-bottom: 1%;
+}
+
+input#tri-2 {
+    padding: 0.5em;
+    margin-left: 16%;
+    margin-bottom: 1%;
+}
+
+input#tri-3 {
+    padding: 0.5em;
+    margin-left: 16%;
+    margin-bottom: 1%;
+}
+
+.tri-cl {
+    margin-left: 23%;
+    margin-bottom: 4%;
+}
+
+.igual{
+    margin-left: 14% ;
+}
+
+button#tri {
+    padding: 1em;
+    border-radius: 1em;
+    margin-left: 38%;
+}
+
+
+/*INSTRUCTORES */
+
+.modal3 {
+    background-color: rgba(0,0,0,0.7);
+    width: 100%;
+    height: 107%;
+    position: fixed;
+    z-index: 1;
+    top: -59px;
+    overflow: auto;
+    padding-top: 50px;
+    display: none;
+}   
+
+.contenidoModal3 {
+    background-color: #FFFFFF;
+    width: 95%;
+    height: 88%;
+    margin: auto;
+    position: relative;
+    padding: 1rem;
+    animation-name: animarmodal;
+    animation-duration: 0.5s;
+}
+
+@keyframes animarmodal {
+    from {top: -300px; opacity: 0;}
+    to{top: 0; opacity: 1;}
+}
+.cerrarModal3{
+    font-size: 2rem;
+    float: right;  
+}
+
+.cerrarModal3:hover{
+    cursor: pointer;
+}
+
+h2.orienta {
+    text-align: center;
+    background-color: yellow;
+    width: 95%;
+    margin-bottom: 7%;
+}
+select#nombre-1 {
+    padding: 0.5em;
+    width: 27%;
+}
+
+div#\32 -ape {
+    margin-left: 37%;
+    margin-top: -8%;
+    margin-bottom: 10%;
+}
+
+
+select#cont-ape {
+    padding: 0.5em;
+    width: 44%;
+}
+
+div#\32 -ori {
+    margin-left: 70%;
+    margin-top: -18%;
+    margin-bottom: 8%;
+}
+
+select#orient-ins {
+    padding: 0.5em;
+}
+
+	
+.mos-conta {
+    display: flex;
+    justify-content: center;
+}
+
+button#showes-2 {
+    padding: 0.5em;
+    width: 26%;
+    background-color: black;
+    color: white;
+}
+
+button#showes-2:hover {
+    background-color: white;
+    color: black;
+}
+
+/*FIGURAS */
+
+
+.modal4 {
+    background-color: rgba(0,0,0,0.7);
+    width: 100%;
+    height: 107%;
+    position: fixed;
+    z-index: 1;
+    top: -59px;
+    overflow: auto;
+    padding-top: 50px;
+    display: none;
+    overflow: hidden;
+}   
+
+.contenidoModal4 {
+    background-color: #FFFFFF;
+    width: 95%;
+    height: 88%;
+    margin: auto;
+    position: relative;
+    padding: 1rem;
+    animation-name: animarmodal;
+    animation-duration: 0.5s;
+}
+
+@keyframes animarmodal {
+    from {top: -300px; opacity: 0;}
+    to{top: 0; opacity: 1;}
+}
+.cerrarModal4{
+    font-size: 2rem;
+    float: right;  
+}
+
+.cerrarModal4:hover{
+    cursor: pointer;
+}
+
+img#cirid {
+    width: 21%;
+    padding: 5em;
+    margin-top: -18%;
+}
+
+p.cen {
+    margin-top: -14%;
+    margin-left: 14%;
+    font-size: 1.5em;
+}
+
+p.recta {
+    margin-left: 62.5%;
+    font-size: 1.5em;
+    margin-top: -7%;
+}
+
+img#recid {
+    margin-top: -20%;
+    margin-left: 51%;
+}
+
+img#cuaid {
+    width: 41%;
+    margin-top: -2%;
+}
+
+p.cuadr {
+    font-size: 1.5em;
+    margin-top: -4%;
+    margin-left: 13%;
+}
+
+img#triid {
+    width: 25%;
+    margin-left: 59%;
+    margin-top: -19%;
+    margin-bottom: 9%;
+}
+
+p.trian {
+    margin-top: -11%;
+    margin-left: 63%;
+    font-size: 1.5em;
+}
+/* Circulo */
+#modalc {
+    background-color: rgba(0,0,0,0.7);
+    width: 100%;
+    height: 107%;
+    position: fixed;
+    z-index: 1;
+    top: -59px;
+    overflow: auto;
+    padding-top: 50px;
+    display: none;
+    overflow: hidden;
+}   
+
+.contenidoModalc {
+    position: fixed;
+    width: 50vh;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background-color: #FFFFFF;
+    width: 95%;
+    height: 88%;
+    margin: auto;
+    position: relative;
+    padding: 1rem;
+    animation-name: animarmodal;
+    animation-duration: 0.5s;*/
+}
+
+.contenidoModalc::after {
+    content: '';
+    position: fixed;
+    width: 50vh;
+    height: 50vh;
+    top: 0;
+    left: 0;
+    background-color: (0,0,0,0 .56);
+    z-index: 0;
+    /*background-color: #FFFFFF;
+    width: 95%;
+    height: 88%;
+    margin: auto;
+    position: relative;
+    padding: 1rem;
+    animation-name: animarmodal;
+    animation-duration: 0.5s;*/
+}
+
+.contenidoModalc img {
+    z-index: 1 ;
+    /*background-color: #FFFFFF;
+    width: 95%;
+    height: 88%;
+    margin: auto;
+    position: relative;
+    padding: 1rem;
+    animation-name: animarmodal;
+    animation-duration: 0.5s;*/
+}
+
+@keyframes animarmodal {
+    from {top: -300px; opacity: 0;}
+    to{top: 0; opacity: 1;}
+}
+.cerrarModalc{
+    font-size: 2rem;
+    float: right;  
+}
+
+.cerrarModalc:hover{
+    cursor: pointer;
 }
 
 /*

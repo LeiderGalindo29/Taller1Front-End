@@ -169,7 +169,7 @@ function triangulos() {
         if(firstValue==secondValue && firstValue ==thirdValue){
             alert(`Los lados del triangulo ${firstValue},${secondValue},${thirdValue}, es un triangulo equilatero `)
         }
-        
+
         else if(firstValue==secondValue || secondValue==thirdValue || firstValue==thirdValue){
             alert(`Los lados del triangulo ${firstValue},${secondValue},${thirdValue},  es un triangulo isosceles `)
         }
@@ -180,4 +180,112 @@ function triangulos() {
         })
 }
 
-triangulos()
+triangulos();
+
+
+/* Actividad del Instructor */
+
+let btnmodal3=document.getElementById("ejer4");
+
+//Acceder ventana modal
+let venmodal3=document.getElementById("ventanaModal3");
+
+//Acceder al botón Cerrar de la ventana modal
+let cermodal3=document.querySelector(".cerrarModal3");
+
+btnmodal3.addEventListener("click",()=>{
+    venmodal3.style.display="block";
+})
+
+cermodal3.addEventListener("click",()=>{
+    venmodal3.style.display="none"; 
+})
+
+window.addEventListener("click",(e)=>{
+if(e.target==venmodal3){
+    venmodal3.style.display="none"; 
+}
+})
+
+function instructor() {
+    const ejecutar = document.getElementById("showes-2")
+    ejecutar.addEventListener('click', () => {
+        const firstSelec = document.getElementById("nombre-1").value
+        const secondSelec = document.getElementById("cont-ape").value
+        const thirdSelec = document.getElementById("orient-ins").value
+        
+        if (firstSelec == 1 && secondSelec == 10 && thirdSelec== 15) {
+            alert(`Su respuesta es correcta`)
+        }else if (firstSelec == 2 && secondSelec == 9 && thirdSelec== 16) {
+            alert(`Su respuesta es correcta`)
+        }
+        else if (firstSelec == 3 && secondSelec == 8 && thirdSelec== 17) {
+            alert(`Su respuesta es correcta`)
+        }
+        else if (firstSelec == 4 && secondSelec == 7 && thirdSelec== 14) {
+            alert(`Su respuesta es correcta`)
+        }
+        else if (firstSelec == 5 && secondSelec == 11 && thirdSelec== 13) {
+            alert(`Su respuesta es correcta`)
+        }    
+        else{
+            alert(`Su respuesta es falsa`)
+        }
+    })
+
+}
+instructor();
+
+
+/*Actividad de las figuras*/
+
+let btnmodal4=document.getElementById("ejer5");
+
+//Acceder ventana modal
+let venmodal4=document.getElementById("ventanaModal4");
+
+//Acceder al botón Cerrar de la ventana modal
+let cermodal4=document.querySelector(".cerrarModal4");
+
+btnmodal4.addEventListener("click",()=>{
+    venmodal4.style.display="block";
+})
+
+cermodal4.addEventListener("click",()=>{
+    venmodal4.style.display="none"; 
+})
+
+window.addEventListener("click",(e)=>{
+if(e.target==venmodal4){
+    venmodal4.style.display="none"; 
+}
+})
+
+
+/* Abrir circulo modal*/
+let btnmodalc=document.getElementById("cirid");
+
+//Acceder ventana modal
+let venmodalc=document.getElementById("ventanaModalc");
+
+//Acceder al botón Cerrar de la ventana modal
+let cermodalc=document.querySelector(".cerrarModalc");
+
+btnmodalc.addEventListener("click",()=>{
+    venmodalc.style.display="block";
+})
+
+cermodalc.addEventListener("click",()=>{
+    venmodalc.style.display="none"; 
+})
+
+window.addEventListener("click",(e)=>{
+if(e.target==venmodalc){
+    venmodalc.style.display="none"; 
+}
+})
+
+
+
+
+
