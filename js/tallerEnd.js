@@ -261,31 +261,91 @@ if(e.target==venmodal4){
 }
 })
 
+function circulo() {
+const images = document.querySelectorAll(".shapes-1d img");
+const modal = document.querySelector(".modal44");
+const close = document.querySelector(".cerrarModalc");
+const modalImg = document.querySelector(".modalImg");
 
-/* Abrir circulo modal*/
-let btnmodalc=document.getElementById("cirid");
+images.forEach((image) => {
+  image.addEventListener("click", () => {
+    modal.classList.add("appear");
 
-//Acceder ventana modal
-let venmodalc=document.getElementById("ventanaModalc");
+    close.addEventListener("click", () => {
+      modal.classList.remove("appear");
+    });
+  });
+});
 
-//Acceder al botón Cerrar de la ventana modal
-let cermodalc=document.querySelector(".cerrarModalc");
-
-btnmodalc.addEventListener("click",()=>{
-    venmodalc.style.display="block";
+const btncl = document.getElementById("espe")
+btncl.addEventListener("click", ()=>{
+    const radio = document.getElementById("area-cir").value
+	const res = Math.PI*(parseFloat(radio)**2);
+    alert(`El area del circulo es de ${res.toFixed(3)}`)
 })
 
+const btnpr = document.getElementById("per-cal")
+btnpr.addEventListener("click", ()=>{
+    const perimetro = document.getElementById("area-cir2").value
+    const per = 2.0*(parseFloat(perimetro)*Math.PI)
+    alert(`El perimetro del circulo es de ${per.toFixed(3)}`)
+})
+
+}
+
+circulo()
+
+/* MODAL Y OPEN DE MODAL CUADRADO*/
+/*Actividad de las figuras*/
+ function cuadrado() {
+    const images1 = document.querySelectorAll(".shapes-1d img");
+const modal1 = document.querySelector(".modal55");
+const close1 = document.querySelector(".cerrarModalcm");
+const modalImg1 = document.querySelector(".modal1Img");
+
+images1.forEach((image1) => {
+  image1.addEventListener("click", () => {
+    modal1.classList.add("appear1");
+
+    close.addEventListener("click", () => {
+      modal1.classList.remove("appear1");
+    });
+  });
+});
+
+const btnclc = document.getElementById("espe1")
+btnclc.addEventListener("click", ()=>{
+    const aria = document.getElementById("area-cir1").value
+    const res = parseFloat(aria)* parseFloat(aria);
+    alert(`El area del circulo es de ${res.toFixed(3)}`)
+})
+
+const btnprc = document.getElementById("per-cal")
+btnprc.addEventListener("click", ()=>{
+    const perimetro = document.getElementById("area-cir2").value
+    const per = 2.0*(parseFloat(perimetro)*Math.PI)
+    alert(`El perimetro del circulo es de ${per.toFixed(3)}`)
+})
+ }
+
+ cuadrado();
+
+/*btnmodalc.addEventListener("click",()=>{
+    venmodalc.style.display="none";
+})
 cermodalc.addEventListener("click",()=>{
     venmodalc.style.display="none"; 
 })
-
 window.addEventListener("click",(e)=>{
 if(e.target==venmodalc){
     venmodalc.style.display="none"; 
 }
 })
 
+const images = document.querySelectorAll('shapes-1d img');
+const modalP = document.querySelector("modalc")
 
 
+*/
 
 

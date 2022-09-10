@@ -518,7 +518,6 @@ button#showes-2:hover {
 
 /*FIGURAS */
 
-
 .modal4 {
     background-color: rgba(0,0,0,0.7);
     width: 100%;
@@ -603,11 +602,11 @@ p.trian {
     font-size: 1.5em;
 }
 /* Circulo */
-#modalc {
+.modalc {
     background-color: rgba(0,0,0,0.7);
     width: 100%;
     height: 107%;
-    position: fixed;
+    position: fixed !important;
     z-index: 1;
     top: -59px;
     overflow: auto;
@@ -616,52 +615,33 @@ p.trian {
     overflow: hidden;
 }   
 
-.contenidoModalc {
-    position: fixed;
-    width: 50vh;
-    height: 50vh;
+.show{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    /*background-color: #FFFFFF;
-    width: 95%;
-    height: 88%;
-    margin: auto;
-    position: relative;
-    padding: 1rem;
-    animation-name: animarmodal;
-    animation-duration: 0.5s;*/
 }
 
-.contenidoModalc::after {
-    content: '';
-    position: fixed;
-    width: 50vh;
-    height: 50vh;
-    top: 0;
-    left: 0;
-    background-color: (0,0,0,0 .56);
-    z-index: 0;
-    /*background-color: #FFFFFF;
-    width: 95%;
-    height: 88%;
-    margin: auto;
-    position: relative;
-    padding: 1rem;
-    animation-name: animarmodal;
-    animation-duration: 0.5s;*/
+#ventanaModalc{
+    background-color: rgba(0,0,0,0.7);
+    width: 100%;
+    height: 107%;
+    position: fixed !important;
+    z-index: 1;
+    top: -59px;
+    overflow: auto;
+    padding-top: 50px;
+    display: block;
+    overflow: hidden;
 }
 
-.contenidoModalc img {
-    z-index: 1 ;
-    /*background-color: #FFFFFF;
-    width: 95%;
+
+.contenidoModalc {
+    overflow: hidden;
+    background: linear-gradient(90deg, rgba(255,255,255,0.8687850140056023) 0%, rgba(25,25,25,0.8743872549019608) 0%);    width: 95%;
     height: 88%;
     margin: auto;
     position: relative;
-    padding: 1rem;
+    padding: 2rem;
     animation-name: animarmodal;
-    animation-duration: 0.5s;*/
+    animation-duration: 0.5s;
 }
 
 @keyframes animarmodal {
@@ -676,6 +656,180 @@ p.trian {
 .cerrarModalc:hover{
     cursor: pointer;
 }
+
+.cencir {
+    font-size: 2em;
+    margin-left: 11%;
+}
+.cal-circ {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -28%;
+    margin-right: 23%;
+}
+
+p.a-c {
+    margin-top: -4%;
+        margin-right: -52%;
+}
+
+.bot-are {
+    display: flex;
+    justify-content: center;
+    margin-top: -16%;
+    margin-right: -30%;
+}
+
+input#area-cir {
+    margin-left: 17%;
+}
+
+.peri-circ {
+    margin-left: 44%;
+    margin-top: 13%;
+}
+
+.cir-pg{
+    margin-left: 6%;
+}
+
+.peri-are {
+    margin-top: 18%;
+    margin-left: 54%;
+}
+
+/*modal dentro de otro modal*/
+.heading {
+    color: #fff;
+    text-align: center;
+    font-size: 2em;
+    margin: 2em 0;
+  }
+.images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1em;
+    margin: 0 1em;
+  }
+  .images img {
+    width: 100%;
+    cursor: pointer;
+    transition: 0.3s all ease;
+  }
+  .images img:hover {
+    transform: scale(0.9);
+  }
+  .modal44 {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    z-index: 1;
+    overflow: auto;
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .modalImg {
+    width: 80%;
+    max-width: 700px;
+  }
+
+  .modal44Content {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .modal44Img {
+    width: 80%;
+    max-width: 700px;
+  }
+  .close {
+    position: absolute;
+    top: 1em;
+    right: 1.5em;
+    font-size: 1.5em;
+    cursor: pointer;
+  }
+  .modal44.appear {
+    opacity: 23;
+    pointer-events: all;
+    overflow: hidden;
+  }
+  .modal44.appear .modalImg,
+  .modal44.appear .modalTxt {
+    animation: zoom 0.3s linear;
+  }
+  @keyframes zoom {
+    from {
+      transform: scale(0);
+    }
+    to {
+      transform: scale(1);
+    }
+  }
+
+  /* CUADRADO Y SUS MODALES */
+
+  .modal55 {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    z-index: 1;
+    overflow: auto;
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .modal1Img {
+    width: 80%;
+    max-width: 700px;
+  }
+
+  .modal55Content {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .modal55Img {
+    width: 80%;
+    max-width: 700px;
+  }
+  .close {
+    position: absolute;
+    top: 1em;
+    right: 1.5em;
+    font-size: 1.5em;
+    cursor: pointer;
+  }
+  .modal55.appear1 {
+    opacity: 23;
+    pointer-events: all;
+    overflow: hidden;
+  }
+  .modal55.appear .modalImg,
+  .modal55.appear .modalTxt {
+    animation: zoom 0.3s linear;
+  }
+  @keyframes zoom {
+    from {
+      transform: scale(0);
+    }
+    to {
+      transform: scale(1);
+    }
+  }
 
 /*
 .container-1{
