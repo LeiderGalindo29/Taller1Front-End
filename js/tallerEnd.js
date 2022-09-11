@@ -262,20 +262,19 @@ if(e.target==venmodal4){
 })
 
 function circulo() {
-const images = document.querySelectorAll(".shapes-1d img");
+const images = document.getElementById("cirid");
 const modal = document.querySelector(".modal44");
 const close = document.querySelector(".cerrarModalc");
 const modalImg = document.querySelector(".modalImg");
 
-images.forEach((image) => {
-  image.addEventListener("click", () => {
+  images.addEventListener("click", () => {
     modal.classList.add("appear");
 
     close.addEventListener("click", () => {
       modal.classList.remove("appear");
     });
   });
-});
+
 
 const btncl = document.getElementById("espe")
 btncl.addEventListener("click", ()=>{
@@ -298,38 +297,67 @@ circulo()
 /* MODAL Y OPEN DE MODAL CUADRADO*/
 /*Actividad de las figuras*/
  function cuadrado() {
-    const images1 = document.querySelectorAll(".shapes-1d img");
+const images1 = document.getElementById("cuaid");
 const modal1 = document.querySelector(".modal55");
 const close1 = document.querySelector(".cerrarModalcm");
-const modalImg1 = document.querySelector(".modal1Img");
 
-images1.forEach((image1) => {
-  image1.addEventListener("click", () => {
+  images1.addEventListener("click", () => {
     modal1.classList.add("appear1");
 
-    close.addEventListener("click", () => {
+    close1.addEventListener("click", () => {
       modal1.classList.remove("appear1");
     });
   });
-});
+
 
 const btnclc = document.getElementById("espe1")
 btnclc.addEventListener("click", ()=>{
     const aria = document.getElementById("area-cir1").value
     const res = parseFloat(aria)* parseFloat(aria);
-    alert(`El area del circulo es de ${res.toFixed(3)}`)
+    alert(`El area del cuadrado es de ${res.toFixed(3)}`)
 })
 
 const btnprc = document.getElementById("per-cal")
 btnprc.addEventListener("click", ()=>{
     const perimetro = document.getElementById("area-cir2").value
     const per = 2.0*(parseFloat(perimetro)*Math.PI)
-    alert(`El perimetro del circulo es de ${per.toFixed(3)}`)
+    alert(`El area del cuadrado es de ${per.toFixed(3)}`)
 })
  }
 
  cuadrado();
 
+
+ function rectangulo() {
+    const images3 = document.getElementById("recid");
+    const modal3 = document.querySelector(".modal6");
+    const close3 = document.querySelector(".cerrarModalre");
+    
+    images3.addEventListener("click", () => {
+        modal3.classList.add("appear2");
+    
+        close3.addEventListener("click", () => {
+            modal3.classList.remove("appear2");
+        });
+      });
+    
+    
+    const btnclc = document.getElementById("espe1")
+    btnclc.addEventListener("click", ()=>{
+        const aria = document.getElementById("area-cir1").value
+        const res = parseFloat(aria)* parseFloat(aria);
+        alert(`El area del circulo es de ${res.toFixed(3)}`)
+    })
+    
+    const btnprc = document.getElementById("per-cal")
+    btnprc.addEventListener("click", ()=>{
+        const perimetro = document.getElementById("area-cir2").value
+        const per = 2.0*(parseFloat(perimetro)*Math.PI)
+        alert(`El perimetro del circulo es de ${per.toFixed(3)}`)
+    })
+     }
+    
+     cuadrado();
 /*btnmodalc.addEventListener("click",()=>{
     venmodalc.style.display="none";
 })

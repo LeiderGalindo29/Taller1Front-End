@@ -591,7 +591,7 @@ p.cuadr {
 
 img#triid {
     width: 25%;
-    margin-left: 59%;
+    margin-left: 51%;
     margin-top: -19%;
     margin-bottom: 9%;
 }
@@ -614,7 +614,10 @@ p.trian {
     display: none;
     overflow: hidden;
 }   
-
+p.cencir-i1 {
+    font-size: 1.5em;
+    margin-left: 13%;
+}
 .show{
     display: flex;
 }
@@ -668,11 +671,10 @@ p.trian {
     margin-right: 23%;
 }
 
-p.a-c {
-    margin-top: -4%;
-        margin-right: -52%;
-}
 
+input#area-cir2 {
+    margin-left: 16%;
+}
 .bot-are {
     display: flex;
     justify-content: center;
@@ -680,8 +682,8 @@ p.a-c {
     margin-right: -30%;
 }
 
-input#area-cir {
-    margin-left: 17%;
+input#area-cir-1 {
+    margin-left: 53%;
 }
 
 .peri-circ {
@@ -696,6 +698,11 @@ input#area-cir {
 .peri-are {
     margin-top: 18%;
     margin-left: 54%;
+}
+
+p.a-c-1 {
+    margin-top: -27%;
+    margin-left: 47%;
 }
 
 /*modal dentro de otro modal*/
@@ -776,6 +783,27 @@ input#area-cir {
 
   /* CUADRADO Y SUS MODALES */
 
+  .heading {
+    color: #fff;
+    text-align: center;
+    font-size: 2em;
+    margin: 2em 0;
+  }
+.images1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1em;
+    margin: 0 1em;
+  }
+  .images1 img {
+    width: 100%;
+    cursor: pointer;
+    transition: 0.3s all ease;
+  }
+  .images1 img:hover {
+    transform: scale(0.9);
+  }
+
   .modal55 {
     position: fixed;
     height: 100%;
@@ -830,6 +858,112 @@ input#area-cir {
       transform: scale(1);
     }
   }
+
+  #cir-2d{
+    display: none;
+  }
+
+  .cerrarModalcm{
+    font-size: 2rem;
+    float: right;  
+}
+
+.cerrarModalcm:hover{
+    cursor: pointer;
+}
+
+.cencir {
+    font-size: 2em;
+    margin-left: 11%;
+    margin-top: 1%;
+}.cir-pg2{
+    margin-left: 6%;
+}
+input#cir-4d {
+    display: none;
+}
+
+p.a-c {
+    margin-left: -10%;
+}.cal-circe {
+    margin-left: 53%;
+    margin-top: -22%;
+}p.cencir-2 {
+    font-size: 1.5em;
+    margin-left: 16%;
+}img.cir-pg1 {
+    width: 47%;
+}
+  /* RECTANGULO*/
+  
+  .modal6 {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    z-index: 1;
+    overflow: auto;
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .modal2Img {
+    width: 80%;
+    max-width: 700px;
+  }
+
+  .modal6Content {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .modal6Img {
+    width: 80%;
+    max-width: 700px;
+  }
+  .close {
+    position: absolute;
+    top: 1em;
+    right: 1.5em;
+    font-size: 1.5em;
+    cursor: pointer;
+  }
+  .modal6.appear2 {
+    opacity: 23;
+    pointer-events: all;
+    overflow: hidden;
+  }
+  .modal6.appear .modalImg,
+  .modal6.appear .modalTxt {
+    animation: zoom 0.3s linear;
+  }
+  @keyframes zoom {
+    from {
+      transform: scale(0);
+    }
+    to {
+      transform: scale(1);
+    }
+  }
+
+  #cir-3d{
+    display: none;
+  }
+
+  .cerrarModalcm{
+    font-size: 2rem;
+    float: right;  
+}
+
+.cerrarModalcm:hover{
+    cursor: pointer;
+}
+
 
 /*
 .container-1{
