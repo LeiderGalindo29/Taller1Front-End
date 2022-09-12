@@ -265,7 +265,6 @@ function circulo() {
 const images = document.getElementById("cirid");
 const modal = document.querySelector(".modal44");
 const close = document.querySelector(".cerrarModalc");
-const modalImg = document.querySelector(".modalImg");
 
   images.addEventListener("click", () => {
     modal.classList.add("appear");
@@ -317,11 +316,11 @@ btnclc.addEventListener("click", ()=>{
     alert(`El area del cuadrado es de ${res.toFixed(3)}`)
 })
 
-const btnprc = document.getElementById("per-cal")
+const btnprc = document.getElementById("cal")
 btnprc.addEventListener("click", ()=>{
-    const perimetro = document.getElementById("area-cir2").value
-    const per = 2.0*(parseFloat(perimetro)*Math.PI)
-    alert(`El area del cuadrado es de ${per.toFixed(3)}`)
+    const perimetro1 = document.getElementById("area-cir2").value
+    const per1 = parseFloat(perimetro1)*parseFloat(perimetro1)
+    alert(`El perimetro del cuadrado es de ${per1.toFixed(3)}`)
 })
  }
 
@@ -342,38 +341,59 @@ btnprc.addEventListener("click", ()=>{
       });
     
     
-    const btnclc = document.getElementById("espe1")
+    const btnclc = document.getElementById("rec-a")
     btnclc.addEventListener("click", ()=>{
-        const aria = document.getElementById("area-cir1").value
-        const res = parseFloat(aria)* parseFloat(aria);
-        alert(`El area del circulo es de ${res.toFixed(3)}`)
+        const rectA = document.getElementById("area-cir-rec").value
+        const resulA = parseFloat(rectA)* parseFloat(rectA);
+        alert(`El area del rectangulo es de ${resulA.toFixed(3)}`)
     })
     
-    const btnprc = document.getElementById("per-cal")
+    const btnprc = document.getElementById("rec-p")
     btnprc.addEventListener("click", ()=>{
-        const perimetro = document.getElementById("area-cir2").value
-        const per = 2.0*(parseFloat(perimetro)*Math.PI)
-        alert(`El perimetro del circulo es de ${per.toFixed(3)}`)
+        const recP = document.getElementById("area-cir-rec-r").value
+        const per = 4*parseFloat(recP)
+        alert(`El perimetro del rectangulo es de ${per.toFixed(3)}`)
     })
      }
     
-     cuadrado();
-/*btnmodalc.addEventListener("click",()=>{
-    venmodalc.style.display="none";
-})
-cermodalc.addEventListener("click",()=>{
-    venmodalc.style.display="none"; 
-})
-window.addEventListener("click",(e)=>{
-if(e.target==venmodalc){
-    venmodalc.style.display="none"; 
-}
-})
-
-const images = document.querySelectorAll('shapes-1d img');
-const modalP = document.querySelector("modalc")
+     rectangulo();
 
 
-*/
+     function triangulo() {
+        const images5 = document.getElementById("triid");
+        const modal4 = document.querySelector(".modalTri");
+        const close4 = document.querySelector(".cerrarModalTri");
+        
+        images5.addEventListener("click", () => {
+            modal4.classList.add("appear3");
+        
+            close4.addEventListener("click", () => {
+                modal4.classList.remove("appear3");
+            });
+          });
+        
+        
+        const btnclc = document.getElementById("tri-a")
+        btnclc.addEventListener("click", ()=>{
+            const base = document.getElementById("base").value
+            const altura = document.getElementById("altura").value
 
+            const reselTri = parseFloat(base)*parseFloat(altura)/2;
+            alert(`El area del triangulo es de ${reselTri.toFixed(3)}`)
+        })
+        
+        const btnprc = document.getElementById("tri-p")
+        btnprc.addEventListener("click", ()=>{
+            const longitud1 = document.getElementById("fisrt-long").value;
+            const longitud2 = document.getElementById("second-long").value;
+            const longitud3 = document.getElementById("third-long").value;
+
+            const resTri = parseFloat(longitud1)+parseFloat(longitud2)+parseFloat(longitud3)
+            alert(`El perimetro del triangulo es de ${resTri.toFixed(3)}`)
+        })
+         }
+        
+         triangulo();
+    
+    
 
