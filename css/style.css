@@ -1191,3 +1191,73 @@ input#second-long {
 }
 
 
+@media screen and (min-width: 250px) and (max-width: 320px)
+{
+    .letra{
+        width: 79%;
+    }
+    .bg-black{
+        margin-top: -36%;
+    }
+    h1{
+        margin-left: 7%;
+    }
+    .jscol {
+        margin-top: -33%;
+        margin-left: 11%;
+    }
+    .jscol img {
+        margin-left: -28%;
+        width: -54%;
+        width: 44%;
+    }
+    .modal3 {
+        margin-left: -7%;
+        width: 32%;
+    }
+    .eje {
+        font-size: 1.6em;
+        margin-left: -6%;
+    }
+    .modal3 {
+        margin-left: -7%;
+        width: 108%;
+    }
+    .container {
+        margin-left: -3%;
+        width: 101%;
+    }
+    .botones {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .all3 {
+        display: flex;
+        flex-direction: column;
+        margin: -43px;
+        margin-top: 8%;
+    }
+    .all5{
+        display: flex;
+        flex-direction: column;
+    }
+    div#\31 -ins {
+        width: 355%;
+    }
+    div#\32 -ape {
+        margin-top: 1%;
+        width: 215%;
+        margin-left: 1%;
+    }
+    div#\32 -ori{
+        margin-top: -10%;
+        width: 245%;
+        margin-left: 1%;
+    }
+    button#showes-2 {
+        width: 75%;
+        margin-top: -5%;
+    }
+
+}
