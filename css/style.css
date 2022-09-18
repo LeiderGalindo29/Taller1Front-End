@@ -591,7 +591,7 @@ p.cuadr {
 
 img#triid {
     width: 25%;
-    margin-left: 51%;
+    margin-left: 59%;
     margin-top: -19%;
     margin-bottom: 9%;
 }
@@ -880,6 +880,9 @@ p.a-c-1 {
     margin-left: 6%;
 }
 input#cir-4d {
+    display: none;
+}
+input#cir-5d {
     display: none;
 }
 
@@ -1197,7 +1200,7 @@ input#second-long {
         width: 79%;
     }
     .bg-black{
-        margin-top: -36%;
+        margin-top: -30%;
     }
     h1{
         margin-left: 7%;
@@ -1227,20 +1230,22 @@ input#second-long {
         margin-left: -3%;
         width: 101%;
     }
-    .botones {
+    /*.botones {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
-    }
+    }*/
     .all3 {
         display: flex;
         flex-direction: column;
         margin: -43px;
         margin-top: 8%;
     }
-    .all5{
+    .all5 {
         display: flex;
         flex-direction: column;
+        width: 45%;
+        margin-left: 5%;
     }
     div#\31 -ins {
         width: 355%;
@@ -1260,4 +1265,225 @@ input#second-long {
         margin-top: -5%;
     }
 
+    /* EJERCICIO 1 */
+    
+    .inp-cl{
+        width: 76%;
+    }
+    button#lo-btn {
+        margin-top: 4%;
+        margin-left: 3%;
+    }
+
+    button#my-btn {
+        margin-left: 3%;
+        width: 85%;
+        margin-top: -17%;
+    }
+    button#mn-btn {
+        margin-left: 3%;
+        width: 88%;
+        margin-top: -13%;
+    }
+    button#pc-btn {
+        width: 88%;
+        margin-left: 3%;
+        margin-top: -13%;
+    }
+
+    /* EJERCICIO 2 */
+    .convertidor1 {
+        width: 70%;
+    }
+    h3.convertidor {
+        margin-top: 10%;
+    }
+    input#fir-dc{
+        width: 68%;
+    }
+    select#all-selc {
+        margin-top: 14%;
+        margin-left: -73%;
+    }
+    input#sec-dc {
+        margin-left: -89%;
+        width: 124%;
+    }
+
+    button#calcular{
+        margin-left: -36%;
+    }
+
+    /* EJERCICIO 3 */
+    .tri-valor{
+        width: 81%;
+    }
+    .tri-cl{
+        margin-left: -16%;
+    }
+    button#tri{
+        margin-left: 13%;
+    }
+
+    /* EJERCICIO 4*/
+    img#cirid {
+        WIDTH: 32%;
+        margin-left: -24%;
+        margin-top: -31%;
+    }
+    p.cen {
+        font-size: 17px;
+        margin-top: -27%;
+        margin-left: 7%;
+    }
+    img#recid {
+        width: 51%;
+        margin-top: -207%;
+        margin-bottom: 16%;
+    }
+    p.recta {
+        font-size: 17px;
+        margin-top: -14%;
+        margin-left: 59%;
+    }
+    img#cuaid {
+        margin-left: -1%;
+        margin-top: 3%;
+    }
+    p.cuadr {
+        font-size: 17px;
+        margin-left: 7%;
+        margin-top: 0%;
+    }
+    img#triid {
+        margin-top: -35%;
+        margin-bottom: 17%;
+        margin-left: 64%;
+    }
+    p.trian {
+        margin-top: -16%;
+        font-size: 17px;
+        margin-left: 61%;
+    }
+
+    /*modal into other modal*/
+    .cir-pg2 {
+        width: 35%;
+        margin-left: -6%;
+        margin-top: -7%;
+    }
+    p.cencir-i1 {
+        margin-top: -25%;
+        margin-left: 45%;
+        margin-bottom: 32%;
+    }
+    .cal-circ-1 {
+        margin-left: -83%;
+        margin-top: 61%;
+    }
+    .peri-circ {
+        margin-left: -1%;
+        margin-top: 4%;
+    }
+    .bot-are {
+        margin-top: 18%;
+        margin-left: -96%;
+    }
+    .peri-are {
+        margin-top: -8%;
+        margin-bottom: 13%;
+        margin-left: 39%;
+    }
+    .fa-solid, .fas {
+        margin-left: -82%;
+    }
+
+
+    /* rectangulo */
+    .cir-pg3 {
+        width: 35%;
+        margin-left: -6%;
+        margin-top: -7%;
+    }
+    p.cencir-3 {
+        margin-top: -13%;
+        margin-left: 40%;
+        margin-bottom: 32%;
+    }
+    .cal-rec {
+        margin-left: 23%;
+        margin-top: -27%;
+    }
+    .peri-circ {
+        margin-left: 8%;
+        margin-top: 4%;
+    }
+    .bot-are {
+        margin-top: 18%;
+        margin-left: -96%;
+    }
+    .peri-are {
+        margin-top: -8%;
+        margin-bottom: 13%;
+        margin-left: 39%;
+    }
+
+    /* cuadrado */
+    .cir-pg1 {
+        width: 35%;
+        margin-left: -6%;
+        margin-top: -7%;
+    }
+    p.cencir-2 {
+        margin-top: -13%;
+        margin-left: 40%;
+        margin-bottom: 32%;
+    }
+    .cal-circe {
+        margin-left: 23%;
+        margin-top: -27%;
+    }
+    .peri-circ {
+        margin-left: 8%;
+        margin-top: 4%;
+    }
+    .bot-are {
+        margin-top: 18%;
+        margin-left: -96%;
+    }
+    .peri-are {
+        margin-top: -8%;
+        margin-bottom: 13%;
+        margin-left: 39%;
+    }
+
+    /* triangulo */
+
+    .cir-pg4 {
+        width: 35%;
+        margin-left: 3%;
+        margin-top: 2%;
+    }
+    p.cencir-4 {
+        margin-top: -13%;
+        margin-left: 40%;
+        margin-bottom: 32%;
+    }
+    .cal-tri {
+        margin-left: 23%;
+        margin-top: -27%;
+    }
+    .peri-circ {
+        margin-left: 11% ;
+        margin-top: 4%;
+    }
+    .bot-are {
+        margin-top: 18%;
+        margin-left: -96%;
+    }
+    .peri-are {
+        margin-top: -8%;
+        margin-bottom: 13%;
+        margin-left: 39%;
+    }
 }

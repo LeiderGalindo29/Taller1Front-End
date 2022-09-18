@@ -1,10 +1,23 @@
 const formulario = document.getElementById('formulario');
 const inputs = document.querySelectorAll('#formulario input');
 
+const fnacimi = document.getElementById('fecha').value
+const sele = document.getElementById('main-op').value
+
+function validarFormatoFecha(sele) {
+    var RegExPattern = /^\d{13}\/\d{1,2}\/\d{2,4}$/;
+    if ((sele.match(RegExPattern)) && (sele!='')) {
+          return true;
+    } else {
+          return false;
+    }
+}
+console.log(fnacimi)
+
 const expresiones = {
 	//usuario: /^[a-zA-Z0-9\_\-]{4,16}$/, // Letras, numeros, guion y guion_bajo
 	nombre: /^[a-zA-Z0-9\_\-]{1,30}$/, // Letras y espacios, pueden llevar acentos.
-	password: /^.{4,12}$/, // 4 a 12 digitos.
+	password: /^^(?=.[a-z])(?=.[A-Z])(?=.*\d)[a-zA-Z\d]{8,}$/, 
 	correo: /^[a-zA-Z0-9_.+-]+@+[misena]+.[edu]+.[c]+[o]$/,
 	telefono: /^\d{7,14}$/, // 7 a 14 numeros.,¿
 	documento : /^.{5,12}$/
@@ -16,7 +29,8 @@ const campos = {
 	password: false,
 	correo: false,
 	telefono: false,
-	documento : false
+	documento : false,
+	fecha : false
 }
 const validarFormulario = (e) => {
 	switch (e.target.name) {
@@ -38,6 +52,31 @@ const validarFormulario = (e) => {
 		break;
 		case "telefono":
 			validarCampo(expresiones.telefono, e.target, 'telefono');
+		break;
+		case "fecha":
+			const fnacimi = document.getElementById('fecha').value
+			const saveDate = new Date()
+			const year = saveDate.getFullYear()
+			const edad = year-fnacimi
+			console.log(edad)
+
+			if (edad >= 18) {
+				document.getElementById(`grupo__`).classList.remove('formulario__grupo-incorrecto');
+				document.getElementById(`grupo__`).classList.add('formulario__grupo-correcto');
+				document.querySelector(`#grupo__ i`).classList.add('fa-check-circle');
+				document.querySelector(`#grupo__ i`).classList.remove('fa-times-circle');
+				document.querySelector(`#grupo__ .formulario__input-error`).classList.remove('formulario__input-error-activo');
+				//campos[campo] = true;
+			}
+			else{
+				document.getElementById(`grupo__`).classList.add('formulario__grupo-incorrecto');
+				document.getElementById(`grupo__`).classList.remove('formulario__grupo-correcto');
+				document.querySelector(`#grupo__ i`).classList.add('fa-times-circle');
+				document.querySelector(`#grupo__ i`).classList.remove('fa-check-circle');
+				document.querySelector(`#grupo__.formulario__input-error`).classList.add('formulario__input-error-activo');
+				//campos[campo] = false;
+			}
+
 		break;
 		//case "documento":
 		//	validarCampo(expresiones.telefono, e.target, 'documento');
