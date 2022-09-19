@@ -1192,8 +1192,6 @@ p.a-c1-tr {
 input#second-long {
     margin-bottom: 2%;
 }
-
-
 @media screen and (min-width: 250px) and (max-width: 320px)
 {
     .letra{
@@ -1486,4 +1484,895 @@ input#second-long {
         margin-bottom: 13%;
         margin-left: 39%;
     }
-}
+    
+    }
+@media screen and (min-width: 321px) and (max-width: 424px)
+    {   
+        .bg-black {
+            height: 138vh;
+        }
+
+        h1.min-ej {
+            margin-top: 3%;
+            position: absolute;
+            width: 38%;
+            margin-left: 24%;
+            text-align: center;
+        }
+        .letra{
+            height: 23%;
+        }
+        .jscol {
+            margin-left: -29%;
+            margin-top: -21%;
+            margin-bottom: -30%;
+        }
+        .eje {
+            font-size: 1.5em;
+            margin-top: -26%;
+        }
+        .contenedor-main{
+            background: none;
+        }
+        .container {
+            width: 93%;
+            margin-left: 1%;
+        }
+        .all3 {
+            display: flex;
+            flex-direction: column;
+            margin: -43px;
+            margin-top: 8%;
+        }
+        .all5 {
+            display: flex;
+            flex-direction: column;
+            width: 32%;
+            margin-left: 18%;
+        }
+        div#\31 -ins {
+            width: 355%;
+        }
+        div#\32 -ape {
+            margin-top: 1%;
+            width: 215%;
+            margin-left: 1%;
+        }
+        div#\32 -ori{
+            margin-top: -10%;
+            width: 245%;
+            margin-left: 1%;
+        }
+        button#showes-2 {
+            width: 75%;
+            margin-top: -5%;
+        }
+
+        /* EJERCICIO 1 */
+    
+    .inp-cl{
+        width: 76%;
+    }
+    button#lo-btn {
+        margin-top: 4%;
+        margin-left: 3%;
+    }
+
+    button#my-btn {
+        margin-left: 3%;
+        width: 85%;
+        margin-top: -17%;
+    }
+    button#mn-btn {
+        margin-left: 3%;
+        width: 88%;
+        margin-top: -13%;
+    }
+    button#pc-btn {
+        width: 88%;
+        margin-left: 3%;
+        margin-top: -13%;
+    }
+
+    /* EJERCICIO 2 */
+    .convertidor1 {
+        width: 70%;
+    }
+    h3.convertidor {
+        margin-top: 10%;
+    }
+    input#fir-dc{
+        width: 68%;
+    }
+    select#all-selc {
+        margin-top: 14%;
+        margin-left: -73%;
+    }
+    input#sec-dc {
+        margin-left: -89%;
+        width: 124%;
+    }
+
+    button#calcular{
+        margin-left: -36%;
+    }
+
+    /* EJERCICIO 3 */
+    .tri-valor{
+        width: 81%;
+    }
+    .tri-cl{
+        margin-left: -16%;
+    }
+    button#tri{
+        margin-left: 13%;
+    }
+
+    /* EJERCICIO 4*/
+    img#cirid {
+        WIDTH: 32%;
+        margin-left: -24%;
+        margin-top: -31%;
+    }
+    p.cen {
+        font-size: 17px;
+        margin-top: -27%;
+        margin-left: 7%;
+    }
+    img#recid {
+        width: 51%;
+        margin-top: -207%;
+        margin-bottom: 16%;
+    }
+    p.recta {
+        font-size: 17px;
+        margin-top: -14%;
+        margin-left: 59%;
+    }
+    img#cuaid {
+        margin-left: -1%;
+        margin-top: 3%;
+    }
+    p.cuadr {
+        font-size: 17px;
+        margin-left: 7%;
+        margin-top: 0%;
+    }
+    img#triid {
+        margin-top: -35%;
+        margin-bottom: 17%;
+        margin-left: 64%;
+    }
+    p.trian {
+        margin-top: -16%;
+        font-size: 17px;
+        margin-left: 61%;
+    }
+
+    /*modal into other modal*/
+    .cir-pg2 {
+        width: 35%;
+        margin-left: -6%;
+        margin-top: -7%;
+    }
+    p.cencir-i1 {
+        margin-top: -25%;
+        margin-left: 45%;
+        margin-bottom: 32%;
+    }
+    .cal-circ-1 {
+        margin-left: -83%;
+        margin-top: 61%;
+    }
+    .peri-circ {
+        margin-left: -1%;
+        margin-top: 4%;
+    }
+    .bot-are {
+        margin-top: 18%;
+        margin-left: -96%;
+    }
+    .peri-are {
+        margin-top: -8%;
+        margin-bottom: 13%;
+        margin-left: 39%;
+    }
+    .fa-solid, .fas {
+        margin-left: -82%;
+    }
+
+
+    /* rectangulo */
+    .cir-pg3 {
+        width: 35%;
+        margin-left: -6%;
+        margin-top: -7%;
+    }
+    p.cencir-3 {
+        margin-top: -13%;
+        margin-left: 40%;
+        margin-bottom: 32%;
+    }
+    .cal-rec {
+        margin-left: 23%;
+        margin-top: -27%;
+    }
+    .peri-circ {
+        margin-left: 8%;
+        margin-top: 4%;
+    }
+    .bot-are {
+        margin-top: 18%;
+        margin-left: -96%;
+    }
+    .peri-are {
+        margin-top: -8%;
+        margin-bottom: 13%;
+        margin-left: 39%;
+    }
+
+    /* cuadrado */
+    .cir-pg1 {
+        width: 35%;
+        margin-left: -6%;
+        margin-top: -7%;
+    }
+    p.cencir-2 {
+        margin-top: -13%;
+        margin-left: 40%;
+        margin-bottom: 32%;
+    }
+    .cal-circe {
+        margin-left: 23%;
+        margin-top: -27%;
+    }
+    .peri-circ {
+        margin-left: 8%;
+        margin-top: 4%;
+    }
+    .bot-are {
+        margin-top: 18%;
+        margin-left: -96%;
+    }
+    .peri-are {
+        margin-top: -8%;
+        margin-bottom: 13%;
+        margin-left: 39%;
+    }
+
+    /* triangulo */
+
+    .cir-pg4 {
+        width: 35%;
+        margin-left: 3%;
+        margin-top: 2%;
+    }
+    p.cencir-4 {
+        margin-top: -13%;
+        margin-left: 40%;
+        margin-bottom: 32%;
+    }
+    .cal-tri {
+        margin-left: 23%;
+        margin-top: -27%;
+    }
+    .peri-circ {
+        margin-left: 11% ;
+        margin-top: 4%;
+    }
+    .bot-are {
+        margin-top: 18%;
+        margin-left: -96%;
+    }
+    .peri-are {
+        margin-top: -8%;
+        margin-bottom: 13%;
+        margin-left: 39%;
+    }
+    }
+
+    @media screen and (min-width: 425px) and (max-width: 517px)
+    {
+        .bg-black {
+            height: 138vh;
+        }
+
+        h1.min-ej {
+            margin-top: 3%;
+            position: absolute;
+            width: 38%;
+            margin-left: 24%;
+            text-align: center;
+        }
+        .letra{
+            height: 23%;
+        }
+        .jscol {
+            margin-left: -20%;
+            margin-top: -28%;
+            margin-bottom: 19%;
+        }
+        .eje {
+            font-size: 1.5em;
+            margin-top: -26%;
+        }
+        .contenedor-main{
+            background: none;
+            height: 0%
+        }
+        .container {
+            width: 93%;
+            margin-left: 1%;
+        }
+        .all3 {
+            display: flex;
+            flex-direction: column;
+            margin: -43px;
+            margin-top: 8%;
+        }
+        .all5 {
+            display: flex;
+            flex-direction: column;
+            width: 32%;
+            margin-left: 18%;
+        }
+        div#\31 -ins {
+            width: 355%;
+        }
+        div#\32 -ape {
+            margin-top: 1%;
+            width: 215%;
+            margin-left: 1%;
+        }
+        div#\32 -ori{
+            margin-top: -10%;
+            width: 245%;
+            margin-left: 1%;
+        }
+        button#showes-2 {
+            width: 75%;
+            margin-top: -5%;
+        }
+
+        /* EJERCICIO 1 */
+    
+    .inp-cl{
+        width: 76%;
+    }
+    button#lo-btn {
+        margin-top: 4%;
+        margin-left: 18%;
+    }
+
+    button#my-btn {
+        margin-left: 10%;
+        width: 77%;
+        margin-top: -17%;
+    }
+    button#mn-btn {
+        margin-left: 10%;
+        width: 76%;
+        margin-top: -13%;
+    }    
+    button#pc-btn {
+        width: 72%;
+        margin-left: 12%;
+        margin-top: -17%;
+    }
+
+    /* EJERCICIO 2 */
+    .convertidor1 {
+        width: 70%;
+    }
+    h3.convertidor {
+        margin-top: 10%;
+    }
+    input#fir-dc{
+        width: 68%;
+    }
+    select#val-all{
+        width:57%;
+    }
+    select#all-selc {
+        margin-top: 14%;
+        margin-left: -73%;
+        width: 103%;
+    }
+    input#sec-dc {
+        margin-left: -89%;
+        width: 124%;
+    }
+
+    button#calcular{
+        margin-left: -22%;
+        
+    }
+
+    /* EJERCICIO 3 */
+    .tri-valor{
+        width: 81%;
+    }
+    .tri-cl {
+        margin-left: 3%;
+        margin-top: 8%;
+    }
+    button#tri {
+        margin-left: 14%;
+        width: 65%;
+    }
+
+    /* EJERCICIO 4*/
+    img#cirid {
+        WIDTH: 32%;
+        margin-left: -17%;
+        margin-top: -31%;
+    }
+    p.cen {
+        font-size: 17px;
+        margin-top: -27%;
+        margin-left: 11%;
+    }
+    
+    
+    img#recid {
+        width: 51%;
+        margin-top: -174%;
+        margin-bottom: 11%;
+        margin-left: 48%;
+    }
+    p.recta {
+        font-size: 17px;
+        margin-top: -14%;
+        margin-left: 59%;
+    }
+    img#cuaid {
+        margin-left: -1%;
+        margin-top: 3%;
+    }
+    p.cuadr {
+        font-size: 17px;
+        margin-left: 7%;
+        margin-top: 0%;
+    }
+    img#triid {
+        margin-top: -42%;
+        margin-bottom: 14%;
+        margin-left: 61%;
+    }
+    p.trian {
+        margin-top: -12%;
+        font-size: 17px;
+        margin-left: 61%;
+    }
+    select#orient-ins{
+        width: 38.5%;
+    }
+
+    /*modal into other modal*/
+    .cir-pg2 {
+        width: 35%;
+        margin-left: -6%;
+        margin-top: -7%;
+    }
+    p.cencir-i1 {
+        margin-top: -25%;
+        margin-left: 45%;
+        margin-bottom: 32%;
+    }
+    .cal-circ-1 {
+        margin-left: -83%;
+        margin-top: 61%;
+    }
+    .peri-circ {
+        margin-left: -1%;
+        margin-top: 4%;
+    }
+    .bot-are {
+        margin-top: 18%;
+        margin-left: -96%;
+    }
+    .peri-are {
+        margin-top: -8%;
+        margin-bottom: 13%;
+        margin-left: 39%;
+    }
+    .fa-solid, .fas {
+        margin-left: -82%;
+    }
+
+
+    /* rectangulo */
+    .cir-pg3 {
+        width: 35%;
+        margin-left: -6%;
+        margin-top: -7%;
+    }
+    p.cencir-3 {
+        margin-top: -13%;
+        margin-left: 40%;
+        margin-bottom: 32%;
+    }
+    .cal-rec {
+        margin-left: 23%;
+        margin-top: -27%;
+    }
+    .peri-circ {
+        margin-left: 8%;
+        margin-top: 4%;
+    }
+    .bot-are {
+        margin-top: 18%;
+        margin-left: -96%;
+    }
+    .peri-are {
+        margin-top: -8%;
+        margin-bottom: 13%;
+        margin-left: 39%;
+    }
+
+    /* cuadrado */
+    .cir-pg1 {
+        width: 35%;
+        margin-left: -6%;
+        margin-top: -7%;
+    }
+    p.cencir-2 {
+        margin-top: -13%;
+        margin-left: 40%;
+        margin-bottom: 32%;
+    }
+    .cal-circe {
+        margin-left: 23%;
+        margin-top: -27%;
+    }
+    .peri-circ {
+        margin-left: 8%;
+        margin-top: 4%;
+    }
+    .bot-are {
+        margin-top: 18%;
+        margin-left: -96%;
+    }
+    .peri-are {
+        margin-top: -8%;
+        margin-bottom: 13%;
+        margin-left: 39%;
+    }
+
+    /* triangulo */
+
+    .cir-pg4 {
+        width: 35%;
+        margin-left: 3%;
+        margin-top: 2%;
+    }
+    p.cencir-4 {
+        margin-top: -13%;
+        margin-left: 40%;
+        margin-bottom: 32%;
+    }
+    .cal-tri {
+        margin-left: 23%;
+        margin-top: -27%;
+    }
+    .peri-circ {
+        margin-left: 11% ;
+        margin-top: 4%;
+    }
+    .bot-are {
+        margin-top: 18%;
+        margin-left: -96%;
+    }
+    .peri-are {
+        margin-top: -8%;
+        margin-bottom: 13%;
+        margin-left: 39%;
+    }
+    }
+    @media screen and (min-width: 518px) and (max-width: 780px)
+    {
+        .bg-black {
+            height: 138vh;
+        }
+
+        h1.min-ej {
+            margin-top: 8%;
+            position: absolute;
+            width: 38%;
+            margin-left: 24%;
+            text-align: center;
+        }
+        .letra{
+            height: 23%;
+        }
+        .jscol {
+            margin-top: -21%;
+            margin-bottom: 20%;
+        }
+        #imagen-js{
+            background: none;
+        }
+        .eje {
+            font-size: 1.5em;
+            margin-top: -26%;
+        }
+        .contenedor-main{
+            background: none;
+            height: 0%
+        }
+        .container {
+            width: 93%;
+            margin-left: 1%;
+        }
+        .all3 {
+            display: flex;
+            flex-direction: column;
+            margin: -43px;
+            margin-top: 8%;
+        }
+        .all5 {
+            display: flex;
+            flex-direction: column;
+            width: 25%;
+            margin-left: 25%;
+        }
+        div#\31 -ins {
+            width: 355%;
+        }
+        div#\32 -ape {
+            margin-top: 1%;
+            width: 215%;
+            margin-left: 1%;
+        }
+        div#\32 -ori{
+            margin-top: -10%;
+            width: 245%;
+            margin-left: 1%;
+        }
+        button#showes-2 {
+            width: 75%;
+            margin-top: -5%;
+        }
+
+        /* EJERCICIO 1 */
+    
+    .inp-cl{
+        width: 76%;
+    }
+    button#lo-btn {
+        margin-top: 4%;
+        margin-left: 18%;
+    }
+
+    button#my-btn {
+        margin-left: 10%;
+        width: 62%;
+        margin-top: -17%;
+    }
+    button#mn-btn {
+        margin-left: 10%;
+        width: 61%;
+        margin-top: -18%;
+    }  
+    button#pc-btn {
+        width: 58%;
+        margin-left: 12%;
+        margin-top: -19%;
+    }
+
+    /* EJERCICIO 2 */
+    .convertidor1 {
+        width: 70%;
+    }
+    h3.convertidor {
+        margin-top: 10%;
+    }
+    input#fir-dc{
+        width: 68%;
+    }
+    select#val-all{
+        width:57%;
+    }
+    select#all-selc {
+        margin-top: 14%;
+        margin-left: -73%;
+        width: 103%;
+    }
+    input#sec-dc {
+        margin-left: -89%;
+        width: 124%;
+    }
+
+    button#calcular {
+        margin-left: -13%;
+        margin-top: -144%;
+    }
+    
+    
+
+    /* EJERCICIO 3 */
+    .tri-valor{
+        width: 81%;
+    }
+    .tri-cl {
+        margin-left: 12%;
+        margin-top: 8%;
+    }
+    
+    .shapes-1d {
+        margin-top: 20%;
+    }    
+    button#tri {
+        margin-left: 14%;
+        width: 65%;
+    }
+
+    /* EJERCICIO 4*/
+    img#cirid {
+        WIDTH: 32%;
+        margin-left: -17%;
+        margin-top: -39%;
+        margin-bottom: 6%;
+    }
+    p.cen {
+        font-size: 17px;
+        margin-top: -27%;
+        margin-left: 11%;
+    }
+    
+    
+    img#recid {
+        width: 51%;
+        margin-top: -174%;
+        margin-bottom: 11%;
+        margin-left: 48%;
+    }
+    p.recta {
+        font-size: 17px;
+        margin-top: -14%;
+        margin-left: 59%;
+    }
+    img#cuaid {
+        margin-left: -1%;
+        margin-top: 3%;
+    }
+    p.cuadr {
+        font-size: 17px;
+        margin-left: 7%;
+        margin-top: 0%;
+    }
+    img#triid {
+        margin-top: -42%;
+        margin-bottom: 14%;
+        margin-left: 61%;
+    }
+    p.trian {
+        margin-top: -12%;
+        font-size: 17px;
+        margin-left: 61%;
+    }
+    select#orient-ins{
+        width: 38.5%;
+    }
+
+    /*modal into other modal*/
+    .cir-pg2 {
+        width: 35%;
+        margin-left: -6%;
+        margin-top: -7%;
+    }
+    p.cencir-i1 {
+        margin-top: -25%;
+        margin-left: 45%;
+        margin-bottom: 32%;
+    }
+    .cal-circ-1 {
+        margin-left: -83%;
+        margin-top: 61%;
+    }
+    .peri-circ {
+        margin-left: -1%;
+        margin-top: 4%;
+    }
+    .bot-are {
+        margin-top: 18%;
+        margin-left: -96%;
+    }
+    .peri-are {
+        margin-top: -8%;
+        margin-bottom: 13%;
+        margin-left: 39%;
+    }
+    .fa-solid, .fas {
+        margin-left: -82%;
+    }
+
+
+    /* rectangulo */
+    .cir-pg3 {
+        width: 35%;
+        margin-left: -6%;
+        margin-top: -7%;
+    }
+    p.cencir-3 {
+        margin-top: -13%;
+        margin-left: 40%;
+        margin-bottom: 32%;
+    }
+    .cal-rec {
+        margin-left: 23%;
+        margin-top: -27%;
+    }
+    .peri-circ {
+        margin-left: 8%;
+        margin-top: 4%;
+    }
+    .bot-are {
+        margin-top: 18%;
+        margin-left: -96%;
+    }
+    .peri-are {
+        margin-top: -8%;
+        margin-bottom: 13%;
+        margin-left: 39%;
+    }
+
+    /* cuadrado */
+    .cir-pg1 {
+        width: 35%;
+        margin-left: -6%;
+        margin-top: -7%;
+    }
+    p.cencir-2 {
+        margin-top: -13%;
+        margin-left: 40%;
+        margin-bottom: 32%;
+    }
+    .cal-circe {
+        margin-left: 23%;
+        margin-top: -27%;
+    }
+    .peri-circ {
+        margin-left: 8%;
+        margin-top: 4%;
+    }
+    .bot-are {
+        margin-top: 18%;
+        margin-left: -96%;
+    }
+    .peri-are {
+        margin-top: -8%;
+        margin-bottom: 13%;
+        margin-left: 39%;
+    }
+
+    /* triangulo */
+
+    .cir-pg4 {
+        width: 35%;
+        margin-left: 3%;
+        margin-top: 2%;
+    }
+    p.cencir-4 {
+        margin-top: -13%;
+        margin-left: 40%;
+        margin-bottom: 32%;
+    }
+    .cal-tri {
+        margin-left: 23%;
+        margin-top: -27%;
+    }
+    .peri-circ {
+        margin-left: 11% ;
+        margin-top: 4%;
+    }
+    .bot-are {
+        margin-top: 18%;
+        margin-left: -96%;
+    }
+    .peri-are {
+        margin-top: -8%;
+        margin-bottom: 13%;
+        margin-left: 39%;
+    }
+    }
