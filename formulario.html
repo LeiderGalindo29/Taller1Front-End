@@ -6,6 +6,8 @@
 	<title>Validación de Formulario con Javascript</title>
 	<link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
+	<script src="https://kit.fontawesome.com/6131ecdde6.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="https://img.icons8.com/color/48/000000/javascript--v1.png" type="image/png" />
 	<link rel="stylesheet" href="css/form.css">
 </head>
 <body>
@@ -82,13 +84,17 @@
 			
 
 			<!-- Grupo: Terminos y Condiciones -->
-			<div class="formulario__grupo" id="grupo__terminos">
-				<label class="formulario__label">
-					<input class="formulario__checkbox" type="checkbox" name="terminos" id="terminos">
-					Acepto los Terminos y Condiciones
-				</label>
-			</div>
+			<a class="terminos" id="terminos"><p>Acepto los Terminos y Condiciones</p></a>
+			<div id="ventanaModal" class="modal">
+				<div class="contenidoModal">
+					<span class="cerrarModal"><i class="fa-solid fa-xmark"></i></span>	
+					<h3>Aceptar Terminos</h3>	
+					<p class="confirm"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere hic nemo, officiis fugiat voluptatem cupiditate magni illo, nesciunt voluptate soluta in laboriosam ratione? Repellat similique, consectetur molestias cupiditate reprehenderit nulla?</p>	
+					<p class="confirm"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere hic nemo, officiis fugiat voluptatem cupiditate magni illo, nesciunt voluptate soluta in laboriosam ratione? Repellat similique, consectetur molestias cupiditate reprehenderit nulla?</p>	
 
+					<button class="boton-send">Aceptar</button>	
+				</div>		
+			</div>
 			<div class="formulario__mensaje" id="formulario__mensaje">
 				<p><i class="fas fa-exclamation-triangle"></i> <b>Error:</b> Por favor rellena el formulario correctamente. </p>
 			</div>

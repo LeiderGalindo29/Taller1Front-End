@@ -2070,7 +2070,8 @@ input#second-long {
     }
     }
     @media screen and (min-width: 518px) and (max-width: 780px)
-    {
+    {   
+    
         .bg-black {
             height: 138vh;
         }
@@ -2375,4 +2376,26 @@ input#second-long {
         margin-bottom: 13%;
         margin-left: 39%;
     }
+    }
+
+    @media screen and (min-width: 781px) and (max-width: 1024)
+    {   
+        div#filter {
+            width: 65%;
+        }
+        .letra{
+            height: 9%;
+            margin-top: -9%;
+        }
+    }
+
+    @media screen and (max-width: 1400)
+    {   
+        div#filter {
+            width: 65%;
+        }
+        .letra{
+            height: 9%;
+            margin-top: -9%;
+        }
     }

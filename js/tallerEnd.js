@@ -96,11 +96,6 @@ function calcular() {
         const primSelec = document.getElementById("val-all").value
         const segSelec = document.getElementById("all-selc").value
         const firstCamp = document.getElementById("fir-dc").value
-        //const secondCamp = document.getElementById("sec-dc").value
-        //primSelec=parseInt(primSelec)
-        //segSelec=parseInt(segSelec)
-        //firstCamp=parseFloat(firstCamp)
-        //secondCamp=parseFloat(secondCamp)
 
         if (primSelec == 1 && segSelec == 5) {
             const resu = (parseFloat(firstCamp)-32) * (5/9);

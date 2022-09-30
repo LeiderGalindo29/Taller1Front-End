@@ -1,3 +1,37 @@
+
+/* MODAL ACEPTAR TERMINO */
+
+let btnmodal=document.getElementById("terminos");
+
+//Acceder ventana modal
+let venmodal=document.getElementById("ventanaModal");
+
+//Acceder al botón Cerrar de la ventana modal
+let cermodal=document.querySelector(".cerrarModal");
+
+let verificar=document.querySelector(".fas fa-times-circle")
+
+let botonSend=document.querySelector(".boton-send")
+
+btnmodal.addEventListener("click",()=>{
+    venmodal.style.display="block";
+})
+
+cermodal.addEventListener("click",()=>{
+    venmodal.style.display="none"; 
+	verificar.style.display="none"
+})
+
+botonSend.addEventListener("click",()=>{
+    venmodal.style.display="none"; 
+})
+
+window.addEventListener("click",(e)=>{
+if(e.target==venmodal){
+    venmodal.style.display="none"; 
+}
+})
+
 const formulario = document.getElementById('formulario');
 const inputs = document.querySelectorAll('#formulario input');
 
@@ -46,10 +80,11 @@ const validarFormulario = (e) => {
 			const fnacimi = document.getElementById('fecha').value
 			const saveDate = new Date()
 			const year = saveDate.getFullYear()
-			const edad = year-fnacimi
+			const naciA = parseInt(String(fnacimi).substring(0,4));
+			const edad = year-naciA
 
 			console.log(edad)
-			if (edad >= 18) {
+			if (year > 1930 && edad > 17 && edad < 100) {
 				document.getElementById(`grupo__fecha`).classList.remove('formulario__grupo-incorrecto');
 				document.getElementById(`grupo__fecha`).classList.add('formulario__grupo-correcto');
 				document.getElementById(`grupo__fecha i`).classList.add('fa-check-circle');
@@ -133,3 +168,4 @@ formulario.addEventListener('submit', (e) => {
 		document.getElementById('formulario__mensaje').classList.add('formulario__mensaje-activo');
 	}
 });
+
