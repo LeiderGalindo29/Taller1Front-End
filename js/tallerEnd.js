@@ -390,5 +390,3 @@ btnprc.addEventListener("click", ()=>{
         
          triangulo();
     
-    
-

@@ -1,23 +1,45 @@
 
-/* MODAL ACEPTAR TERMINO */
-
-let btnmodal=document.getElementById("terminos");
+/* MODAL ACEPTAR TERMINO 
+let modal=document.getElementById("ejer6");
 
 //Acceder ventana modal
-let venmodal=document.getElementById("ventanaModal");
+let vodal444=document.getElementById("ventanaModal5");
 
 //Acceder al botón Cerrar de la ventana modal
-let cermodal=document.querySelector(".cerrarModal");
+let ceral444=document.querySelector(".cerrarModal5");
+
+modal.addEventListener("click",()=>{
+    vodal444.style.display="block";
+})
+
+ceral444.addEventListener("click",()=>{
+    vodal444.style.display="none"; 
+})
+
+window.addEventListener("click",(e)=>{
+if(e.target==vodal444){
+    vodal444.style.display="none"; 
+}
+})*/
+
+
+let btnmodal21=document.getElementById("terminos");
+
+//Acceder ventana modal
+let venl=document.getElementById("ventanaModal");
+
+//Acceder al botón Cerrar de la ventana modal
+let cel=document.querySelector(".cerrarModal");
 
 let verificar=document.querySelector(".fas fa-times-circle")
 
 let botonSend=document.querySelector(".boton-send")
 
-btnmodal.addEventListener("click",()=>{
+btnmodal21.addEventListener("click",()=>{
     venmodal.style.display="block";
 })
 
-cermodal.addEventListener("click",()=>{
+venl.addEventListener("click",()=>{
     venmodal.style.display="none"; 
 	verificar.style.display="none"
 })
